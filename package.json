@@ -1,0 +1,25 @@
+{
+  "dependencies": {},
+  "deprecated": false,
+  "description": "Adds React properties",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^7.2.3",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1"
+  },
+  "files": [
+    "lib"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "name": "babel-plugin-react-add-data-id",
+  "scripts": {
+    "build": "rm -rf lib && mkdir lib && babel src --out-dir lib",
+    "flow": "flow",
+    "lint": "eslint src test",
+    "prepublish": "npm run build"
+  },
+  "version": "2.0.1"
+}
